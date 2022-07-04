@@ -1,15 +1,18 @@
 #include<stdio.h>
 int main()
 {
-  int a,b;
+  int a,b,i;
   scanf("%d %d", &a, &b);
-  if(b/a)
+  for(i=1; i; i++)
   {
-    printf("Sao Multiplos\n");
-  }
-  else
-  {
-    printf("Nao sao Multiplos\n");
+    if(a*i==b)
+    {
+      printf("Sao Multiplos\n");
+    }
+    else if(a*i!=b)
+    {
+      printf("Nao sao Multiplos\n");
+    }
   }
   return 0;
 }
